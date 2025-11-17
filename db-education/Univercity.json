@@ -1,0 +1,361 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "time1": "http://www.w3.org/2006/time",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352",
+      "@type": [
+        "dcat:Dataset",
+        "schema1:Dataset"
+      ],
+      "dcat:contactPoint": {
+        "@id": "_:N10d1131cf40c43f8a1662ced6fb66e08"
+      },
+      "dcat:distribution": {
+        "@id": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352/resource/5e2ce427-7dde-41c9-ad20-76ff12a16aeb"
+      },
+      "dcat:keyword": "education",
+      "dct:creator": [
+        {
+          "@language": "az",
+          "@value": "Azərbaycan Respublikasının Dövlət Statistika Komitəsi"
+        },
+        {
+          "@language": "ru",
+          "@value": "Государственный статистический комитет Азербайджанской Республики"
+        },
+        {
+          "@language": "en",
+          "@value": "State Statistical Committee of the Republic of Azerbaijan"
+        }
+      ],
+      "dct:description": [
+        {
+          "@language": "en",
+          "@value": ""
+        },
+        {
+          "@language": "az",
+          "@value": ""
+        },
+        {
+          "@language": "ru",
+          "@value": ""
+        }
+      ],
+      "dct:identifier": "69615758-35a0-4e0d-bec2-1a3d4a13d352",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-12-11T10:43:27.379033"
+      },
+      "dct:mediator": [
+        {
+          "@language": "ru",
+          "@value": "Чимназ Алиева"
+        },
+        {
+          "@language": "az",
+          "@value": "Çimnaz Əliyeva"
+        },
+        {
+          "@language": "en",
+          "@value": "Chimnaz Aliyeva"
+        }
+      ],
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-05-26T12:03:51.334792"
+      },
+      "dct:publisher": {
+        "@id": "https://admin.opendata.az/organization/9b44b52f-2116-48c8-9565-d9dc026dca8f"
+      },
+      "dct:title": [
+        {
+          "@language": "az",
+          "@value": "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+        },
+        {
+          "@language": "en",
+          "@value": "Years of higher education institutions, students and teachers"
+        },
+        {
+          "@language": "ru",
+          "@value": "Годы высших учебных заведений, студентов и учителей"
+        },
+        "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+      ],
+      "owl:versionInfo": "1.0",
+      "schema1:about": [
+        {
+          "@id": "_:N5dcf09522aff48e398a9ff69f581ef14"
+        },
+        {
+          "@id": "_:N1bc2bfd094f7415782853c3f37d3d17e"
+        }
+      ],
+      "schema1:creator": [
+        {
+          "@language": "ru",
+          "@value": "Государственный статистический комитет Азербайджанской Республики"
+        },
+        {
+          "@language": "en",
+          "@value": "State Statistical Committee of the Republic of Azerbaijan"
+        },
+        {
+          "@language": "az",
+          "@value": "Azərbaycan Respublikasının Dövlət Statistika Komitəsi"
+        }
+      ],
+      "schema1:dateModified": "2025-05-26T12:03:51.334792",
+      "schema1:datePublished": "2024-12-11T10:43:27.379033",
+      "schema1:description": [
+        {
+          "@language": "az",
+          "@value": ""
+        },
+        {
+          "@language": "ru",
+          "@value": ""
+        },
+        {
+          "@language": "en",
+          "@value": ""
+        }
+      ],
+      "schema1:distribution": {
+        "@id": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352/resource/5e2ce427-7dde-41c9-ad20-76ff12a16aeb"
+      },
+      "schema1:includedInDataCatalog": [
+        {
+          "@id": "_:N1a35b3372abc4cf8b053cfd1ad1829e4"
+        },
+        {
+          "@id": "_:Nc4cf8abc3e5f41eb9513a22969057927"
+        }
+      ],
+      "schema1:keywords": "education",
+      "schema1:license": "http://www.opendefinition.org/licenses/cc-zero",
+      "schema1:mediator": [
+        {
+          "@language": "ru",
+          "@value": "Чимназ Алиева"
+        },
+        {
+          "@language": "az",
+          "@value": "Çimnaz Əliyeva"
+        },
+        {
+          "@language": "en",
+          "@value": "Chimnaz Aliyeva"
+        }
+      ],
+      "schema1:name": [
+        {
+          "@language": "az",
+          "@value": "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+        },
+        {
+          "@language": "en",
+          "@value": "Years of higher education institutions, students and teachers"
+        },
+        {
+          "@language": "ru",
+          "@value": "Годы высших учебных заведений, студентов и учителей"
+        },
+        "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+      ],
+      "schema1:publisher": {
+        "@id": "https://admin.opendata.az/organization/9b44b52f-2116-48c8-9565-d9dc026dca8f"
+      },
+      "schema1:url": "https://admin.opendata.az/az/dataset/ali-tehsil-muessiseleri-telebeleri-ve-muellim-heyeti-uzre-illik-gostericiler",
+      "schema1:version": "1.0"
+    },
+    {
+      "@id": "_:N5dcf09522aff48e398a9ff69f581ef14",
+      "@type": "schema1:Thing",
+      "schema1:name": "education",
+      "schema1:url": "https://admin.opendata.az/az/group/3e9c43ba-19be-446a-a221-345df15e6610"
+    },
+    {
+      "@id": "_:N1bc2bfd094f7415782853c3f37d3d17e",
+      "@type": "schema1:Thing",
+      "schema1:name": "education",
+      "schema1:url": "https://admin.opendata.az/az/group/3e9c43ba-19be-446a-a221-345df15e6610"
+    },
+    {
+      "@id": "_:N1a35b3372abc4cf8b053cfd1ad1829e4",
+      "@type": "schema1:DataCatalog",
+      "schema1:description": "",
+      "schema1:name": "\"Açıq məlumatlar\" portalı",
+      "schema1:url": "https://admin.opendata.az"
+    },
+    {
+      "@id": "_:Nc4cf8abc3e5f41eb9513a22969057927",
+      "@type": "schema1:DataCatalog",
+      "schema1:description": "",
+      "schema1:name": "\"Açıq məlumatlar\" portalı",
+      "schema1:url": "https://admin.opendata.az"
+    },
+    {
+      "@id": "_:N10d1131cf40c43f8a1662ced6fb66e08",
+      "@type": "vcard:Organization",
+      "vcard:fn": "Çimnaz Əliyeva",
+      "vcard:hasEmail": {
+        "@id": "mailto:chimnaz.aliyeva@stat.gov.az"
+      }
+    },
+    {
+      "@id": "https://admin.opendata.az/organization/9b44b52f-2116-48c8-9565-d9dc026dca8f",
+      "@type": [
+        "schema1:Organization",
+        "foaf:Organization"
+      ],
+      "foaf:name": "Azərbaycan Respublikasının Dövlət Statistika Komitəsi",
+      "schema1:contactPoint": [
+        {
+          "@id": "_:N17f1047d99d04e769b48f874886bbd9f"
+        },
+        {
+          "@id": "_:Nd5ec13f822c54233b935e45b01e4d894"
+        }
+      ],
+      "schema1:name": "Azərbaycan Respublikasının Dövlət Statistika Komitəsi"
+    },
+    {
+      "@id": "_:N17f1047d99d04e769b48f874886bbd9f",
+      "@type": "schema1:ContactPoint",
+      "schema1:contactType": "customer service",
+      "schema1:email": "chimnaz.aliyeva@stat.gov.az",
+      "schema1:name": "Çimnaz Əliyeva",
+      "schema1:url": "https://admin.opendata.az"
+    },
+    {
+      "@id": "_:Nd5ec13f822c54233b935e45b01e4d894",
+      "@type": "schema1:ContactPoint",
+      "schema1:contactType": "customer service",
+      "schema1:email": "chimnaz.aliyeva@stat.gov.az",
+      "schema1:name": "Çimnaz Əliyeva",
+      "schema1:url": "https://admin.opendata.az"
+    },
+    {
+      "@id": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352/resource/5e2ce427-7dde-41c9-ad20-76ff12a16aeb",
+      "@type": [
+        "dcat:Distribution",
+        "schema1:DataDownload"
+      ],
+      "dcat:accessURL": {
+        "@id": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352/resource/5e2ce427-7dde-41c9-ad20-76ff12a16aeb/download/ali-thsil-mussislri-tdris-ilinin-vvlin.csv"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "2271.0"
+      },
+      "dct:description": [
+        {
+          "@language": "az",
+          "@value": ""
+        },
+        {
+          "@language": "ru",
+          "@value": ""
+        },
+        {
+          "@language": "en",
+          "@value": ""
+        }
+      ],
+      "dct:format": "CSV",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-12-11T10:43:28.572767"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-05-26T12:03:51.354663"
+      },
+      "dct:title": [
+        {
+          "@language": "az",
+          "@value": "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+        },
+        "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər",
+        {
+          "@language": "en",
+          "@value": "Years of higher education institutions, students and teachers"
+        },
+        {
+          "@language": "ru",
+          "@value": "Годы высших учебных заведений, студентов и учителей"
+        }
+      ],
+      "schema1:contentSize": 2271,
+      "schema1:description": [
+        {
+          "@language": "en",
+          "@value": ""
+        },
+        {
+          "@language": "az",
+          "@value": ""
+        },
+        {
+          "@language": "ru",
+          "@value": ""
+        }
+      ],
+      "schema1:encodingFormat": "CSV",
+      "schema1:name": [
+        "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər",
+        {
+          "@language": "en",
+          "@value": "Years of higher education institutions, students and teachers"
+        },
+        {
+          "@language": "ru",
+          "@value": "Годы высших учебных заведений, студентов и учителей"
+        },
+        {
+          "@language": "az",
+          "@value": "Ali təhsil müəssisələri, tələbələri və müəllim heyəti üzrə illik göstəricilər"
+        }
+      ],
+      "schema1:url": "https://admin.opendata.az/dataset/69615758-35a0-4e0d-bec2-1a3d4a13d352/resource/5e2ce427-7dde-41c9-ad20-76ff12a16aeb/download/ali-thsil-mussislri-tdris-ilinin-vvlin.csv"
+    }
+  ]
+}
